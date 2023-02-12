@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  /** Werkt als er slechts 1 element aanwezig is (hier dus "container") **/
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 380px;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1em;
+  margin-bottom: 2rem;
+  /** met afgeronde hoeken **/
+  border-radius: 1.8rem;
+  /** Lichte schaduw **/
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.kaartje {
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 1em;
+  max-width: 32rem;
+}
+.kaartje img {
+  width: 100%;
+  /** De afbeelding zit in de main dus de radius iets kleiner **/
+  border-radius: 1.2rem;
+  /** Wit ruimte onder de afbeelding **/
+  margin: 1rem 0;
+}
+
+.tekst h1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.tekst p {
+  text-align: center;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
